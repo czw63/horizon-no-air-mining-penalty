@@ -2,10 +2,12 @@ id = "no_air_mining_penalty"
 name = "No Air Mining Penalty"
 version = "0.1.0"
 description = "Removes the airborne mining penalty outside water; preserves underwater mining behavior."
+authors = ["czw63"]
 api = "0.2"
 side = "both"
 capabilities = ["registries"]
 
-[wasm]
-sha512 = "9f90eabe67a1fb17ba5f614e4a87e610738674f6992658a5b25306ca479dd9e8b5e2851329d60bb11a85f2a7b561cb0ad2814b6e3b5aaca50ebc9e17195a40c3"
-toolchain = "1.99.1 58cf8f9c35b355199727627d07ae34a4e2846d67"
+[native]
+game = "26.3"
+horizon = "5ef7734fdd854add5efd6817178be3c988d8d050"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
