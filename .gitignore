@@ -1,6 +1,4 @@
 /.horizon/
 /target/
-/mod.wasm
-mod.wasm
 /AGENTS.md
 mod.wasm
